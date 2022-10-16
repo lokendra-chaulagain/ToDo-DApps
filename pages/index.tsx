@@ -1,6 +1,12 @@
 import React from "react";
 import ProfileCard from "../components/ProfileCard";
 import TasksCard from "../components/TasksCard";
+import TaskAbi from "../backend/contracts/TaskContract.json";
+import { TaskContractAddress } from "../config";
+
+
+
+
 
 function Home() {
   return (
