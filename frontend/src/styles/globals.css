@@ -1,3 +1,8 @@
+body {
+  background-color: #0b0c1a !important;
+  /* margin: 50px 0px !important; */
+}
+
 .card_heading {
   color: rgb(32, 32, 173) !important;
   font-size: calc(1rem + 0.4vw);
@@ -10,13 +15,12 @@
 .app_body {
   background-color: #0b0c1a !important;
   color: #afafd7 !important ;
-  height: 100vh;
+  overflow-x: hidden;
 }
 
 .main_card {
   background-color: #0e101b !important;
   border: 1px solid #1e5262 !important;
-  width: calc(18rem + 7vw);
 }
 
 .task_card {
@@ -58,9 +62,7 @@
 .toast_message_success {
   background: #141a2a !important;
   color: #afafd7;
-  font-size: 19px;
-  width: 34vw;
-  padding: 30px 20px;
+  font-size: calc(1rem + 0.1vw) !important;
 }
 
 .custom_alert {
@@ -83,4 +85,8 @@
 .card_connect_button:hover {
   color: whitesmoke !important;
   border-color: #42b2d4 !important;
+}
+
+.custom_spinner {
+  padding: calc(0.15rem + 0.2vw) 0px !important;
 }
